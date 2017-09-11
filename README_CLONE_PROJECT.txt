@@ -15,6 +15,7 @@ run $ bower init
 paste dependencies from host bower.json over to new target bower.json
 run $ bower install
 run $ gulp build
+Add ./node_modules/.bin/jasmine init
 run $ karma init
 make sure package.json test has "karma start karma.conf.js"
 paste everything from host karma.conf.js over to new target karma.conf.js
